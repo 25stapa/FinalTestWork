@@ -9,7 +9,7 @@
 
 // Entering strings from the keyboard and the formation of a new array
 
-// 1. Declaring Variables
+                                                        // 1. Declaring Variables
 string[] arrString1;                                    // reference to an array of strings
 int count;                                              // the current number of rows in the array
 string s;
@@ -33,7 +33,7 @@ do
         for (int i = 0; i < temp.Length - 1; i++) // copy the old array to the new one
             temp[i] = arrString1[i];
 
-        temp[count - 1] = s;                      // add last entered string to "arrString2" array
+        temp[count - 1] = s;                      // add last entered string to "temp" array
 
         arrString1 = temp;                         
     }
